@@ -67,6 +67,7 @@ class Main extends egret.DisplayObjectContainer {
         App.ResourceUtils.addConfig("resource/resource_ui.json", "resource/");
         App.ResourceUtils.addConfig("resource/resource_battle.json", "resource/");
         App.ResourceUtils.addConfig("resource/resource_rpg.json", "resource/");
+        //加载资源，序列加载
         App.ResourceUtils.loadConfig(this.onConfigComplete, this);
     }
 
